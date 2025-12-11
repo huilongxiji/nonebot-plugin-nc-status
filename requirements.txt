@@ -1,0 +1,21 @@
+# NoneBot2 核心框架
+nonebot2>=2.0.0
+
+# OneBot V11 适配器
+nonebot-adapter-onebot>=2.0.0
+
+# 定时任务插件（必需）
+nonebot-plugin-apscheduler>=0.3.0
+
+# HTML 渲染插件（用于图片输出）
+nonebot-plugin-htmlrender>=0.2.0
+
+# HTTP 异步客户端
+httpx>=0.24.0
+
+# 数据模型验证
+pydantic>=2.0.0
+
+# TOML 解析（Python 3.10 需要，3.11+ 已内置 tomllib）
+tomli>=2.0.0; python_version < "3.11"
+

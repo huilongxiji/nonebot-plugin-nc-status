@@ -1,0 +1,14 @@
+# NC Status 连接池配置文件
+
+[settings]
+interval = 30           # 轮询间隔（秒）
+timeout = 10            # 请求超时（秒）
+group = 123456789       # 上报群号（请修改为实际群号）
+error_threshold = 6     # 连续错误阈值（达到后上报）
+retry_count = 3         # 重试次数（暂未使用）
+
+[[connections]]
+name = "示例Bot"        # 连接名称（用于识别）
+host = "127.0.0.1"      # 主机地址
+port = 3000             # 端口号
+token = "your_token"    # 访问令牌
